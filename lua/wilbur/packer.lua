@@ -49,4 +49,14 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
+
+    use 'tribela/vim-transparent'
+
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
+
+    use 'ThePrimeagen/vim-be-good'
+
 end)
